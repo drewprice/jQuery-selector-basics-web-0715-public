@@ -16,7 +16,7 @@ describe('Selectors', function() {
     expect(linkSelector().length).toBe(1);
   });
 
-  it('#imageSelector should an image that has the alt text equal to "cat sleeping"', function() {
+  it('#imageSelector should select an image that has the alt text equal to "cat sleeping"', function() {
     expect(imageSelector().length).toBe(1);
   });
 
